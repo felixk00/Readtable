@@ -1,0 +1,106 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 05.08.2022, 16:32:46
+    Author     : FelixMac
+*/
+
+*{
+    padding: 0;
+    margin: auto;
+    
+    font:14px "Arial Black", Arial, Helvetica, sans-serif;
+
+}
+
+
+
+body {
+    background: url('./bg.jpg') no-repeat;
+    background-size: calc;
+}
+
+.login-form{
+    width: 400px;
+    height: 490px;
+    margin: auto;
+    margin-top: 170px;
+    
+    
+    background-color: #fff;
+    border-radius: 15px;
+    
+}
+
+.login-form h1{
+    font-size: 40px;
+    text-align: center;
+  
+    padding-top: 10px;
+}
+
+.login-form p{
+    font-size: 14px;
+    margin: 20px 0 0 45px;
+    
+    padding-left: 10px;
+}
+
+.login-form p1{
+    font:13px "Avenir", Arial, Helvetica, sans-serif;
+    margin: 0 0 0 120px;
+    
+    
+    
+}
+
+
+.login-form input{
+    font-size: 16px;
+    width: 75%;
+    margin: 0 0 0 48px;
+    padding: 10px 10px;
+
+    outline: none;
+    border-radius: 30px;
+    border-color: #cccccc;
+
+}
+
+.loginButton {
+    background-color: #ffcc00;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0 0 48px;
+    padding: 10px 10px;
+    width: 75%;
+    border-radius: 30px;
+    border: 0;
+    
+}
+
+.registerButton{
+    background-color: black;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px 0 0 48px;
+    padding: 10px 10px;
+    width: 75%;
+    border-radius: 30px;
+    border: 0;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    
+    margin: 0 0 0 130px;
+    
+    /*
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);*/
+}
